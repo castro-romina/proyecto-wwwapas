@@ -8,17 +8,15 @@
     </head>
 
     <body>
-        <!-- !navegacion superior -->
         <nav>
             <div class="logo">wwwapas</div>
             <div class="nav-links">
                 <a href="#servicios-link">Servicios</a>
                 <a href="#contacto-link">Contacto</a>
-                <a href="#login-link">Login</a>
+                <a href="#redes-link">Redes</a>
             </div>
         </nav>
- 
-        <!--!inicio con foto y explicacion  -->
+
         <main class="inicio">
             <div class="inicio-text">
                 <h1>
@@ -36,10 +34,9 @@
                 <img src="./imagenes/foto.png" alt="Imagen de Sofi y Julia">
             </div>
         </main>
-        
+
         <hr class="dividir">
- 
-        <!-- !zona de 2 columnas -->
+
         <div class="intro">
             <div class="intro-col">
                 <span class="intro-label">¡Hola! Somos SOFI &amp; JULIA</span>
@@ -59,14 +56,11 @@
                 </p>
             </div>
         </div>
- 
-        <!-- !Servicios -->
-        <section id="servicios-link"  class="servicios">
 
+        <section id="servicios-link" class="servicios">
             <div class="servicios-img">
                 <img src="./imagenes/img-servicios.png" alt="Servicios de wwwapas">
             </div>
-            
             <div class="servicios-content">
                 <h2>SERVICIOS</h2>
                 <ol>
@@ -80,16 +74,14 @@
                 </ol>
             </div>
         </section>
- 
-        <!-- !contacto del lado izquierdo -->
-        <section id="login-link" class="contacto">
+
+        <section id="contacto-link" class="contacto">
             <div class="contacto-izquierda">
                 <h2>¿Querés que nos<br>contactemos con vos?</h2>
                 <p>Dejanos tus datos y nos ponemos en contacto a la brevedad.</p>
-                <a href="#login-link" class="btn-enviar">Envianos tu consulta &gt;&gt;</a>
+                <a href="#contacto-link" class="btn-enviar">Envianos tu consulta &gt;&gt;</a>
             </div>
 
-            <!-- !formulario -->
             <form action="codigo.php" method="post">
                 <div class="form">
                     <label>Nombre</label>
@@ -101,7 +93,7 @@
                 </div>
                 <div class="form">
                     <label>Mensaje</label>
-                    <textarea name="Mensaje" required></textarea>
+                    <textarea name="mensaje" required></textarea>
                 </div>
                 <div class="btns">
                     <button class="btn-enviar" type="submit">Enviar consulta</button>
@@ -109,28 +101,23 @@
                 </div>
             </form>
         </section>
-        
-        <!-- !Redes sociales -->
-       <div id="contacto-link">
+
+        <div id="redes-link">
             <div class="footer-redes">
                 <div class="redes-info">
                     <small>redes</small>
                     <span>wwwapas</span>
                 </div>
-
                 <div class="iconos-redes">
                     <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer">
                         <img src="./imagenes/linkedin-icon.png" alt="LinkedIn">
                     </a>
-
                     <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">
                         <img src="./imagenes/facebook-icon.png" alt="Facebook">
                     </a>
-
                     <a href="https://www.dribbble.com" target="_blank" rel="noopener noreferrer">
                         <img src="./imagenes/dribbble-icon.png" alt="Dribbble">
                     </a>
-
                     <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
                         <img src="./imagenes/instagram-icon.png" alt="Instagram">
                     </a>
@@ -138,9 +125,11 @@
             </div>
         </div>
 
-        <footer class="footer-bottom">
-            <div class="logo">wwwapas</div>
-            <a href="mailto:wwwapas_sm@mail.com">wwwapas_sm@mail.com</a>
+        <footer>
+            <div class="footer-bottom">
+                <div class="logo">wwwapas</div>
+                <a href="mailto:wwwapas_sm@mail.com">wwwapas_sm@mail.com</a>
+            </div>
         </footer>
     </body>
 </html>
