@@ -430,6 +430,104 @@ footer {
     color: var(--negro);
 }
 
+
 .footer-bottom a::after {
     content: "wwwapas_sm@mail.com";
+}
+
+
+
+/* ===== RESPONSIVE MOBILE ===== */
+@media (max-width: 768px) {
+
+    /* NAV */
+    nav {
+        padding: 16px 20px;
+        flex-wrap: wrap;
+        gap: 12px;
+    }
+
+    .nav-links {
+        gap: 24px;
+    }
+
+    /* INICIO */
+    .inicio {
+        grid-template-columns: 1fr;
+        padding: 32px 20px;
+    }
+
+    .inicio-text {
+        padding-right: 0;
+    }
+
+    .inicio-text h1 img {
+        width: 200px;
+    }
+
+    .inicio-img {
+        height: 260px;
+        margin-top: 24px;
+    }
+
+    /* INTRO */
+    .intro {
+        grid-template-columns: 1fr;
+    }
+
+    .intro-col {
+        padding: 28px 20px;
+    }
+
+    .intro-col:first-child {
+        border-right: none;
+        border-bottom: 1.5px solid var(--gris-borde);
+    }
+
+    /* SERVICIOS */
+    .servicios {
+        grid-template-columns: 1fr;
+        gap: 24px;
+        padding: 40px 20px;
+    }
+
+    .servicios-img {
+        order: -1;
+    }
+
+    /* CONTACTO */
+    .contacto {
+        grid-template-columns: 1fr;
+        gap: 32px;
+        padding: 40px 20px;
+    }
+
+    .contacto-izquierda h2 {
+        font-size: 22px;
+    }
+
+    /* FOOTER REDES */
+    .footer-redes {
+        flex-direction: column;
+        gap: 20px;
+        padding: 32px 20px;
+        text-align: center;
+    }
+
+    .iconos-redes {
+        gap: 16px;
+    }
+
+    .iconos-redes img {
+        width: 36px;
+        height: 36px;
+    }
+
+    /* FOOTER BOTTOM */
+    .footer-bottom {
+        flex-direction: column;
+        gap: 8px;
+        padding: 16px 20px;
+        text-align: center;
+    }
 }
